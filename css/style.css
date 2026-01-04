@@ -20,8 +20,10 @@ audio{
 }
 
 
-body{
-    text-align: center;
+#audio,
+#video,
+#youtube-video{
+  text-align: center;
 }
 
 #video{
@@ -31,7 +33,8 @@ body{
     padding:  15px;
     margin: 30px auto;
     display: block;
-    width: fit-content;
+    max-width: 760px;
+    width: 100%;
    
 }
 
